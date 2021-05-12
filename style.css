@@ -1,0 +1,19 @@
+body,form {
+    margin: 0;
+}
+.container {
+    border: 3px solid black;
+    height: 210px;
+    width: 300px;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+}
+label {
+    display: flex;
+    flex-direction: row;
+}
+.check {
+    width: 22px;
+    height: 22px;
+}
