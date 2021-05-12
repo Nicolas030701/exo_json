@@ -13,11 +13,11 @@
     <form name="form" method="post" action="">
         <label for="test">Choisi donc !</label>
             <select name="option" size="1">
-                <option value="1">DOMAC</option>
-                <option value="2">Tacos</option>
-                <option value="3">Kebab</option>
-                <option value="4">Pizza</option>
-                <option value="5">Salade</option>
+                <option value="DOMAC">DOMAC</option>
+                <option value="TACOS">Tacos</option>
+                <option value="KEBAB">Kebab</option>
+                <option value="PIZZA">Pizza</option>
+                <option value="SALADE">Salade</option>
 
     <?php
         $query = "SELECT * FROM option";
